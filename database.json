@@ -102,6 +102,12 @@
       "typeId": "1",
       "price": "05.24",
       "id": 9
+    },
+    {
+      "name": "Candy Name",
+      "typeId": "3",
+      "price": "4.54",
+      "id": 8
     }
   ],
   "types": [
