@@ -1,114 +1,128 @@
 {
-    "users": [
-        {
-            "id": 1,
-            "name": "Ryan Allred",
-            "email": "ryanallred91@gmail.com",
-            "isStaff": true
-        },
-        {
-            "id": 2,
-            "name": "Evangelos",
-            "email": "evangelos@hotmail.com",
-            "isStaff": false
-        }
-    ],
-    "customers": [
-        {
-
-        }
-    ],
-    "employees": [
-        {
-          "id": 1,
-          "startDate": "September 2, 1991",
-          "payRate": 6.55,
-          "userId": 1,
-          "locationId": 3
-        }
-    ],
-    "locations": [
-        {
-            "id": 1,
-            "address": "1234 Ryan Street",
-            "squareFootage": 1400
-        },
-        {
-            "id": 2,
-            "address": "5678 42nd Avenue",
-            "squareFootage": 1000
-        },
-        {
-            "id": 3,
-            "address": "910 Evangelos Way",
-            "squareFootage": 2000
-        }
-    ],
-    "products": [
-        {
-            "id": 1,
-            "name": "Big Red",
-            "typeId": 2,
-            "price": 0.99
-        },
-        {
-            "id": 2,
-            "name": "Jolly Ranchers",
-            "typeId": 1,
-            "price": 1.89
-        },
-        {
-            "id": 3,
-            "name": "Vanilla Coke",
-            "typeId": 4,
-            "price": 2.19
-        },
-        {
-            "id": 4,
-            "name": "A&W Root Beer",
-            "typeId": 4,
-            "price": 2.15
-        },
-        {
-            "id": 5,
-            "name": "Snickers",
-            "typeId": 3,
-            "price": 1.59
-        },
-        {
-            "id": 6,
-            "name": "5 gum",
-            "typeId": 2,
-            "price": 1.66
-        },
-        {
-            "id": 7,
-            "name": "Reese's",
-            "typeId": 3,
-            "price": 2.45
-        }
-    ],
-        "types": [
-        {
-            "id": 1,
-            "type": "Hard candy"
-        },
-        {
-            "id": 2,
-            "type": "Gum"
-        },
-        {
-            "id": 3,
-            "type": "Chocolate"
-        },
-        {
-            "id": 4,
-            "type": "Sodas"
-        }
-    ],
-    "purchases": [
-        {
-            
-        }
-    ]
+  "users": [
+    {
+      "id": 1,
+      "name": "Ryan Allred",
+      "email": "ryanallred91@gmail.com",
+      "isStaff": true
+    },
+    {
+      "id": 2,
+      "name": "Evangelos",
+      "email": "evangelos@hotmail.com",
+      "isStaff": false
+    }
+  ],
+  "customers": [
+    {}
+  ],
+  "employees": [
+    {
+      "id": 1,
+      "startDate": "September 2, 1991",
+      "payRate": 6.55,
+      "userId": 1,
+      "locationId": 3
+    }
+  ],
+  "locations": [
+    {
+      "id": 1,
+      "address": "1234 Ryan Street",
+      "squareFootage": 1400
+    },
+    {
+      "id": 2,
+      "address": "5678 42nd Avenue",
+      "squareFootage": 1000
+    },
+    {
+      "id": 3,
+      "address": "910 Evangelos Way",
+      "squareFootage": 2000
+    }
+  ],
+  "products": [
+    {
+      "id": 1,
+      "name": "Big Red",
+      "typeId": 2,
+      "price": 0.99
+    },
+    {
+      "id": 2,
+      "name": "Jolly Ranchers",
+      "typeId": 1,
+      "price": 1.89
+    },
+    {
+      "id": 3,
+      "name": "Vanilla Coke",
+      "typeId": 4,
+      "price": 2.19
+    },
+    {
+      "id": 4,
+      "name": "A&W Root Beer",
+      "typeId": 4,
+      "price": 2.15
+    },
+    {
+      "id": 5,
+      "name": "Snickers",
+      "typeId": 3,
+      "price": 1.59
+    },
+    {
+      "id": 6,
+      "name": "5 gum",
+      "typeId": 2,
+      "price": 1.66
+    },
+    {
+      "id": 7,
+      "name": "Reese's",
+      "typeId": 3,
+      "price": 2.45
+    },
+    {
+      "name": "Candy Name",
+      "typeId": "3",
+      "price": "4.54",
+      "id": 8
+    },
+    {
+      "name": "gum",
+      "typeId": "1",
+      "price": "05.24",
+      "id": 9
+    },
+    {
+      "name": "candy",
+      "typeId": "1",
+      "price": "05.24",
+      "id": 9
+    }
+  ],
+  "types": [
+    {
+      "id": 1,
+      "type": "Hard candy"
+    },
+    {
+      "id": 2,
+      "type": "Gum"
+    },
+    {
+      "id": 3,
+      "type": "Chocolate"
+    },
+    {
+      "id": 4,
+      "type": "Sodas"
+    }
+  ],
+  "purchases": [
+    {}
+  ]
 }
